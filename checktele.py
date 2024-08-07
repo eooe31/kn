@@ -57,65 +57,45 @@ def gen_user(choice):
         else:
             pass
     if choice == "2":
-        c = str(''.join((random.choice(a) for i in range(1))))
-        d = str(''.join((random.choice(e) for i in range(1))))
-        f1 = c+'_'+d+c+d
-        f2 = c+d+c+'_'+d
-        f3 = c+d+'_'+d+c
-        f4 = c+'_'+d+d+c
-        f = f1,f2,f3,f4
-        f = random.choice(f)
-        username = f
+        c = d = random.choices(a)
+        d = random.choices(e)
+        f = [c[0], d[0], c[0], d[0], d[0], d[0], d[0]]
+        random.shuffle(f)
+        username = ''.join(f)
         if username in banned[0]:
-            c = str(''.join((random.choice(a) for i in range(1))))
-            d = str(''.join((random.choice(e) for i in range(1))))
-            f1 = c+'_'+d+c+d
-            f2 = c+d+c+'_'+d
-            f3 = c+d+'_'+d+c
-            f4 = c+'_'+d+d+c
-            f = f1,f2,f3,f4
-            f = random.choice(f)
-            username = f
+            c = d = random.choices(a)
+            d = random.choices(e)
+            f = [c[0], c[0], c[0], c[0], d[0], c[0], d[0]]
+            random.shuffle(f)
+            username = ''.join(f)
         else:
             pass
     if choice == "3":
-        d1 = str(''.join((random.choice(b) for i in range(1))))
-        d2 = str(''.join((random.choice(b) for i in range(1))))
-        d3 = str(''.join((random.choice(b) for i in range(1))))
-        f1 = 'vip'+d1+d2+d1+d2
-        f2= 'vip'+d1+d1+d2+d2
-        f3 = 'vip'+d1+d2+d2+d2
-        f4 = 'vip'+d1+d1+d1+d2
-        f5 = 'id'+d1+d2+d3
-        f = f1,f2,f3,f4,f5
-        f = random.choice(f)
-        username =f
+        c = d = random.choices("erioaszxcv578")
+        d = random.choices("x")
+        f = [c[0], d[0], "_", d[0], d[0], d[0]]
+        random.shuffle(f)
+        username = ''.join(f)
         if username in banned[0]:
-            d1 = str(''.join((random.choice(b) for i in range(1))))
-            d2 = str(''.join((random.choice(b) for i in range(1))))
-            f1 = 'vip'+d1+d2+d1+d2
-            f2= 'vip'+d1+d1+d2+d2
-            f3 = 'vip'+d1+d2+d2+d2
-            f4 = 'vip'+d1+d1+d1+d2
-            f5 = 'id'+d1+d2+d3
-            f6 = 'bet'+d1+d2+d3
-            f = f1,f2,f3,f4,f5,f6
-            f = random.choice(f)
-            username =f
+            c = d = random.choices("erioaszxcv578")
+            d = random.choices("x")
+            f = [c[0], c[0], c[0], "_", c[0], d[0]]
+            random.shuffle(f)
+            username = ''.join(f)
         else:
             pass
     if choice == "4":
-        c = str(''.join((random.choice(a) for i in range(1))))
-        d = str(''.join((random.choice(e) for i in range(1))))
-        d1 = str(''.join((random.choice(b) for i in range(1))))
-        f = c+d+d1+d1+d1+d1
-        username =f
+        c = d = random.choices("erioaszxcv578")
+        d = random.choices("x")
+        f = [c[0], d[0], c[0], d[0], d[0], d[0], d[0]]
+        random.shuffle(f)
+        username = ''.join(f)
         if username in banned[0]:
-        	c = str(''.join((random.choice(a) for i in range(1))))
-        	d = str(''.join((random.choice(e) for i in range(1))))
-        	d1 = str(''.join((random.choice(b) for i in range(1))))
-        	f = c+d+d1+d1+d1+d1
-        	username =f
+            c = d = random.choices("erioaszxcv578")
+            d = random.choices("x")
+            f = [c[0], c[0], c[0], c[0], d[0], c[0], d[0]]
+            random.shuffle(f)
+            username = ''.join(f)
         else:
             pass
     if choice == "5":

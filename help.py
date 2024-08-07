@@ -128,9 +128,9 @@ Hunt sours (max)
 Types :
 ------------------------
 1 - xcxx_x
-2 - a_1a1  -  a_bab - aba_b - a_abb - a_bba - ab_ba
-3 - vip1199 - vip 1919 - id123 
-4 - ab1111 - abccc
+2 - kcckkkk
+3 - xoxx_x [ x ]
+4 - xccxxxx [ x ]
 5 - sxxxc - s777c - sxxx7 - s7773 - sxxxs - sxxxx
 6 - x8bot
 7 - sdxbot - sx5bot - s4dbot - s55bot - ss5bot 
