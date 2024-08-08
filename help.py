@@ -127,16 +127,16 @@ Hunt sours (max)
 
 Types :
 ------------------------
-1 - xcxx_x
-2 - kcckkkk
-3 - xoxx_x [ x ]
-4 - xccxxxx [ x ]
-5 - sxxxc - s777c - sxxx7 - s7773 - sxxxs - sxxxx
-6 - x8bot
-7 - sdxbot - sx5bot - s4dbot - s55bot - ss5bot 
-8 - scooo
-10 - a_b_c - a_b_1
-test - لفحص السورس
+1 - xcxx_x [حروف]
+2 - s_8888 [رقم-ارقام]
+3 - xccxxxx [حروف]
+4  - s888s88 [رقمين-ارقام] 
+5 - mmmkkk [حروف]
+6 - xxx888 [ارقام]
+7 - xxccxx [حروف]
+8 - ss55ss [رقمين-ارقام]
+9 - ss_nn [حروف]
+10 - ss_88 [رقمين]
 ---------------------
 مثل : .صيد 700000 8 x_o_x
 '''
